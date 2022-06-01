@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: yellow;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: greenyellow;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: aqua;
+        }
+        a:active{
+            color: blue;
+        }
+        a::after{
+            content: '  &lArr';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+        a::before{
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+            content: '&rArr  ';
+        }
+    </style>
+    <title>Links</title>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/ArthurEstevaum" target="_blank" hreflang="pt-br" rel="author">Repositório github</a></li>
+        <li><a href="https://www.instagram.com/estevaum_/" target="_blank" hreflang="pt-br" rel="author">Instagram</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/"  target="_blank" hreflang="pt-br" rel="external">Site curso em vídeo</a></li>
+        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjU3I7DmPL3AhWhlZUCHRJkCDQQFnoECAIQAw&url=https%3A%2F%2Fwww.dicionarioinformal.com.br%2Fcasa%2Bdo%2Bcaralho%2F%23%3A~%3Atext%3DSignifica%2520uma%2520casa%2520em%2520um%2Cdistante%252C%2520muito%2520dif%25C3%25ADcil%2520de%2520chegar.&usg=AOvVaw3xUmGYDEnURqeSNfbe08EP" target="_blank" hreflang="pt-br" rel="nofollow">Casa do caralho</a></li>
+    </ul>
+</body>
+</html>

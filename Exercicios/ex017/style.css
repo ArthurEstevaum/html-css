@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import url('');
+
+body{
+    font-family: 'Work Sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    /*Medidas absolutas
+    cm, mm, in, px, pt, pc
+
+    Medidas relativas
+    em, ex, rem, vw, vh, %
+     16px geralmente = 1em
+    */
+    font-weight: normal;
+    /* lighter, normal, bold, bolder */
+    font-style: normal;
+}
+h1, h2{
+    /*font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 3em;*/
+
+    /*Shorthand font- Configura a font a partir de uma única propriedade   
+    - font-style -> font-weight -> font-size -> font-family*/
+    font: italic bolder 3em verdana, sans-serif;
+}

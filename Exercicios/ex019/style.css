@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*O seletor para ID do html em css é o '#'*/
+/*O seletor para Class em html em css é o '.'*/
+body {
+    background-color: #558C8C;
+    font: 1em verdana, georgia, sans-serif;
+}
+h1 {
+    font-weight: 600;
+    font-size: 2em;
+    color: #432e43;
+}
+h1#principal{
+    background-color: #c5ba66ba;
+    text-align: center;
+    font: bolder 3em;
+    color: rgb(30, 20, 32);
+}
+h2{
+    color: #82204A;
+}
+.basico{
+    color: #57FAAB;
+}
+.intermediario{
+    color: #FAD355;
+}
+.advanced{
+    color: #FF2B1E;
+}

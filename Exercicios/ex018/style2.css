@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'love';
+    src: url(fonts/Wall\ Notes.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+    /*
+    Tipos de format()
+    opentype(otf)
+    truetype(ttf)
+    embedded-opentype
+    truetype-aat(apple advanced typography
+    svg
+    */
+}
+
+h1{
+    font-family: 'love';
+    font-weight: normal;
+    font-size: 3em;
+}
+
+body {
+    font-size: 1em;
+    font-family: verdana, sans-serif;
+}

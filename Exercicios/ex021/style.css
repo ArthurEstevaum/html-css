@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Beaufort';
+    src: url(fonts/Beaufort\ for\ LOL\ Bold.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+header{
+    background: linear-gradient(174deg, rgba(11,6,13,1) 0%, rgba(64,7,7,1) 100%);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.container{
+    font-family: 'Lato', sans-serif;
+    background-color: #0D0D0D;
+}
+div>h1{
+    color: #736C4D;
+    margin: 0px;
+    font-family: 'Beaufort', sans-serif;
+    font-size: 4em;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 4px 4px 2px #000000;
+
+}
+nav > a {
+    font-size: 0.80em;
+    border-right: 2px solid #736C4D;
+    text-decoration: none;
+    color: #736C4D;
+    padding-right: 10px;
+    margin: 5px;
+}
+nav > a:hover {
+    text-decoration: underline #736C4D;
+}
+nav{
+    margin-top: 10px;
+}
+main {
+    color: #0D0D0D;
+    background-color: #afa67c;
+    padding: 25px 25px 50px 25px;
+}
+section > h1 {
+    font-size: 2.50em;
+    font-weight: 800;
+}
+article > h2 {
+    font-size: 2em;
+    font-weight: 500;
+}
+aside {
+    box-shadow: 1px 1px 3px#141414;
+    color: rgb(100, 100, 100);
+    padding: 15px;
+    border: 3px solid #0D0D0D;
+    margin-top: 20px;
+}
+article{
+    box-shadow: 1px 2px 3px rgb(121, 121, 121);
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.paragrafo {
+    padding: 10px;
+    border-left: 2px solid rgb(94, 94, 94);
+    border-right: 2px solid rgb(94, 94, 94);
+}
+footer{
+    margin: 20px;
+    background-color: #0D0D0D;
+    color: rgb(152, 152, 152);
+}
+#flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+img{
+    margin-left: 20px;
+}
+article > a {
+    color: #141414;
+    text-decoration: #141414;
+}
+article > a:visited {
+    color: #000000;
+    text-decoration: #000000;
+}
